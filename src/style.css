@@ -7,6 +7,7 @@ body {
   margin: 0;
   width: 100vw; /* resize depending on screen size  */
 }
+
 nav {
   height: 65px;
   background-color: #607EE9;
@@ -18,3 +19,34 @@ h1 {
   font-size: 20px;
   margin-left: 20px;
 }
+
+form {
+  padding: 20px;
+}
+
+input {
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #D5D4D8;
+  width: 100%;
+}
+
+
+button {
+  border: none;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  font-weight: bold;
+  height: 48px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #607EE9;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  width: 50%;
+}
+
