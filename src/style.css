@@ -1,0 +1,20 @@
+* {
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+body {
+  margin: 0;
+  width: 100vw; /* resize depending on screen size  */
+}
+nav {
+  height: 65px;
+  background-color: #607EE9;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 20px;
+  margin-left: 20px;
+}
