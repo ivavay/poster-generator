@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from "../components/Header"
 import Quote from "../components/Quote"
+import Image from "../components/Image"
 import './style.css';
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
     <div>
     <Header />
     <Quote />
+    <Image />
     </div>
   );
 }

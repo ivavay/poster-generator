@@ -15,12 +15,15 @@ nav {
   align-items: center;
 }
 
+#unsplashImage {
+  width: 100%;
+}
 h1 {
   font-size: 20px;
   margin-left: 20px;
 }
 
-form {
+.form {
   padding: 20px;
 }
 
@@ -31,7 +34,13 @@ input {
   width: 100%;
 }
 
+img {
+  width: 100%;
+}
 
+.image-container {
+  padding: 20px;
+}
 button {
   border: none;
   margin-top: 20px;

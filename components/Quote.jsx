@@ -2,10 +2,10 @@ import React from "react"
 
 function Quote () {
   return( 
-    <form>
+    <div className="form">
     <input type="text" />
     <button>Get New Image</button>
-    </form>
+    </div>
   )
 }
 
