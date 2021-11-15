@@ -16,7 +16,7 @@ function Image () {
     <button onClick={getImage}>Get New Image</button>
     </div>
       <div className="image-container">
-      <img src={backgroundImage}/>
+      <img src={backgroundImage} onLoad={(event) => event.target.style.display = 'inline-block'}/>
       </div>
     </div>
   )
