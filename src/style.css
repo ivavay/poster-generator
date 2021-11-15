@@ -34,17 +34,30 @@ input {
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   width: 100%;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
 img {
-  width: 100%;
+  width: 50vw;
   object-fit: cover;
-  height: 400px;
+  height: 70vh;
   display: none;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  img {
+    width: 100%;
+    object-fit: cover;
+    height: 400px;
+    display: none;
+  }
+}
 .image-container {
   padding: 20px;
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -54,14 +67,14 @@ button {
   margin-right: auto;
   font-size: 16px;
   font-weight: bold;
-  height: 48px;
-  padding: 20px;
+  padding: 8px;
   border-radius: 5px;
   background-color: #607EE9;
   display: flex;
   justify-content: center;
+  justify-self: center;
   align-self: center;
   align-items: center;
-  width: 50%;
+  width: 160px;
 }
 
