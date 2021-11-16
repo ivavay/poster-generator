@@ -30,6 +30,7 @@ h1 {
 }
 
 input {
+  margin-right: 0;
   height: 35px;
   border-radius: 5px;
   border: 1px solid #D5D4D8;
@@ -37,6 +38,7 @@ input {
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+  color: black;
 }
 
 img {
@@ -58,6 +60,7 @@ img {
   padding: 20px;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 button {
@@ -77,4 +80,18 @@ button {
   align-items: center;
   width: 160px;
 }
+.image-quote {
+    position: absolute;
+    width: 60%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* margin: 15px 0; */
+    top: 50%;
+    padding: 0 5px;
+    font-size: 1.2em;
+    color: white;
+    font-family: 'La Belle Aurore', cursive;
+}
+
 
